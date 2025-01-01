@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="weather-container">
+    <div class="weather-header">
+      <h1>Weather App</h1>
+      <p>Get the current weather based on your location or search for another city.</p>
+    </div>
+
+    <div class="weather-input">
+      <input type="text" id="cityInput" placeholder="Enter city name...">
+      <button id="getWeatherBtn">Get Weather</button>
+    </div>
+
+    <div class="weather-info" id="weatherInfo">
+      <div class="loading" id="loading">Loading...</div>
+      <div class="current-weather">
+        <h2 id="cityName"></h2>
+        <div id="weatherIcon"></div>
+        <div id="temperature"></div>
+        <div id="description"></div>
+        <div id="details"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Weather App. All rights reserved. | Developed by <a href="https://github.com/Sahithya-2412">@ Ayla Sahithya</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
